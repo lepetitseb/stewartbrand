@@ -1,0 +1,93 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+
+
+body {
+	background-color:white;
+	width:100vw;
+	height:100vh;
+	background: url(images/500_Earth_light.gif) no-repeat center center;
+	/*background-position : 90px 50px;
+	background-position : bottom -30px right 450px;*/
+}
+
+h1 {
+	float: left;
+	font-size: 40px;
+	font-family: Ubuntu;
+	color: #caa71c;
+	position: relative;
+	right:123px;
+	top:250px;
+	transform: rotate(-90deg);
+}
+
+
+#images{
+	width:980px;
+	margin-left: auto;
+	margin-right: auto;
+
+}
+
+img {
+	float: left;
+	margin-top: 2em;
+}
+
+#text{ 
+	width: 300px;
+	float: right;
+	position: relative;
+	top:  350px;
+	right: 500px;
+	font-family: Ubuntu;
+	color: #caa71c;
+	background-color: white;
+	padding:10px 15px;
+}
+
